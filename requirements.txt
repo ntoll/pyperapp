@@ -1,0 +1,13 @@
+appdirs
+babel
+black
+click
+importlib-metadata ; python_version < '3.8'
+jinja2
+pycodestyle
+pyflakes
+pytest
+pytest-cov
+pytest-random-order
+requests
+sphinx

@@ -1,0 +1,11 @@
+[pyperapp]
+version = "{{ version }}"
+
+[meta]
+name = "{{ name }}"
+description = "{{ description }}"
+author = "{{ author }}"
+created = {{ now.strftime("%Y-%m-%dT%H:%M:%S%z") }}
+
+[stack]
+start = "hello"
